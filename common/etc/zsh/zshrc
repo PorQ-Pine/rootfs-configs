@@ -3593,6 +3593,8 @@ zrclocal
 
 unfunction grml_status_feature
 
+source /etc/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 ## genrefcard.pl settings
 
 ### doc strings for external functions from files
