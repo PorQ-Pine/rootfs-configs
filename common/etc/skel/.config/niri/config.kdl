@@ -3,7 +3,7 @@ debug { render-drm-device "/dev/dri/card1"; }
 
 // Initial rotation
 output "DPI-1" {
-    transform "90"
+    // transform "90"
 }
 
 // This config is in the KDL format: https://kdl.dev
@@ -15,6 +15,10 @@ output "DPI-1" {
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration:-Input
 input {
+    touch {
+        map-to-output "DPI-1"
+    }
+    
     keyboard {
         xkb {
             // You can set rules, model, layout, variant and options.
