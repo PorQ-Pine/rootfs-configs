@@ -6,8 +6,8 @@ output "DPI-1" {
     // transform "90"
 }
 
-spawn-at-startup "nwg-drawer -wm niri msg action spawn --"
-spawn-at-startup "eww-wayland open bar"
+spawn-sh-at-startup "nwg-drawer -r -wm niri msg action spawn --"
+spawn-sh-at-startup "eww-wayland open bar"
 
 input {
     // Pinenote touch
