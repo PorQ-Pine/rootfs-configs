@@ -36,9 +36,16 @@ input {
     }
 }
 
+cursor {
+    xcursor-theme "GoogleDot-Black"
+    xcursor-size 16
+    hide-after-inactive-ms 250
+}
+
 layout {
-    gaps 16
-    center-focused-column "never"
+    gaps 0
+    center-focused-column "always"
+    always-center-single-column
 
     preset-column-widths {
         proportion 0.33333
@@ -46,42 +53,33 @@ layout {
         proportion 0.66667
     }
 
-    default-column-width { proportion 0.5; }
+    default-column-width { proportion 1.0; }
 
     focus-ring {
-        width 4
-        active-color "#7fc8ff"
-        inactive-color "#505050"
+        off
     }
 
     border {
         off
-        width 4
-        active-color "#ffc87f"
-        inactive-color "#505050"
-        urgent-color "#9b0000"
     }
 
     shadow {
-        softness 30
-        spread 5
-        offset x=0 y=5
-        color "#0007"
+        off
     }
+    background-color "#FFFFFF"
+}
 
-    struts {
- 
-    }
+window-rule {
+    default-column-width { proportion 1.0; }
+    default-window-height { proportion 1.0; }
 }
 
 hotkey-overlay {
  
 }
 
-screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
-
 animations {
- 
+    off
 }
 
 binds {
