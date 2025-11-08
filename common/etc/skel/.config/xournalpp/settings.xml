@@ -6,16 +6,16 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="custom Copy"/>
-  <property name="lastSavePath" value="/home/szybet/Downloads"/>
+  <property name="lastSavePath" value="/home/szybet"/>
   <property name="lastOpenPath" value="/home/user"/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
-  <property name="zoomStep" value="10"/>
+  <property name="zoomStep" value="5"/>
   <property name="zoomStepScroll" value="2"/>
-  <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="1918"/>
-  <property name="mainWndHeight" value="1078"/>
+  <property name="displayDpi" value="132"/>
+  <property name="mainWndWidth" value="1070"/>
+  <property name="mainWndHeight" value="733"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
@@ -34,7 +34,7 @@
   <property name="layoutBottomToTop" value="false"/>
   <property name="numPairsOffset" value="1"/>
   <!--The icon theme, allowed values are "disabled", "onDrawOfLastPage", and "onScrollOfLastPage"-->
-  <property name="emptyLastPageAppend" value="onDrawOfLastPage"/>
+  <property name="emptyLastPageAppend" value="disabled"/>
   <property name="presentationMode" value="false"/>
   <!--Which GUI elements are shown in default view mode, separated by a colon (,)-->
   <property name="defaultViewModeAttributes" value="showMenubar,showToolbar"/>
@@ -84,7 +84,7 @@
   <property name="selectionBorderColor" value="4294901760"/>
   <property name="backgroundColor" value="4292664021"/>
   <property name="selectionMarkerColor" value="4285702095"/>
-  <property name="touchZoomStartThreshold" value="10"/>
+  <property name="touchZoomStartThreshold" value="45"/>
   <property name="pageRerenderThreshold" value="5"/>
   <!--The count of rendered PDF pages which will be cached.-->
   <property name="pdfPageCacheSize" value="10"/>
@@ -110,7 +110,7 @@
   <property name="trySelectOnStrokeFiltered" value="false"/>
   <property name="snapRecognizedShapesEnabled" value="false"/>
   <property name="restoreLineWidthEnabled" value="false"/>
-  <property name="numIgnoredStylusEvents" value="0"/>
+  <property name="numIgnoredStylusEvents" value="1"/>
   <property name="inputSystemTPCButton" value="false"/>
   <property name="inputSystemDrawOutsideWindow" value="true"/>
   <property name="preferredLocale" value=""/>
@@ -169,15 +169,15 @@
   </data>
   <data name="deviceClasses">
     <data name="Core Pointer">
-      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceClass" type="int" value="4"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
     <data name="Logical pointer for w9013 2D1F:0095 Stylus">
-      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceClass" type="int" value="4"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
     <data name="Wayland Pointer">
-      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceClass" type="int" value="4"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
     <data name="Wayland Touch">
@@ -189,7 +189,7 @@
       <attribute name="deviceSource" type="int" value="3"/>
     </data>
     <data name="Wayland Wheel Scrolling">
-      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceClass" type="int" value="4"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
     <data name="w9013 2D1F:0095">
@@ -248,7 +248,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ff000000"/>
+      <attribute name="color" type="hex" value="000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
@@ -295,8 +295,8 @@
   <data name="touch">
     <attribute name="cmdDisable" type="string" value=""/>
     <attribute name="cmdEnable" type="string" value=""/>
-    <attribute name="disableTouch" type="boolean" value="false"/>
-    <attribute name="method" type="string" value="custom"/>
-    <attribute name="timeout" type="int" value="1000"/>
+    <attribute name="disableTouch" type="boolean" value="true"/>
+    <attribute name="method" type="string" value="auto"/>
+    <attribute name="timeout" type="int" value="2500"/>
   </data>
 </settings>
