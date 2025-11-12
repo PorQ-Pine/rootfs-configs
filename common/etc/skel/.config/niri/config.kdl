@@ -6,6 +6,17 @@ output "DPI-1" {
     // transform "90"
 }
 
+prefer-no-csd
+
+environment {
+    QT_QPA_PLATFORM "wayland"
+    DISPLAY null
+}
+
+hotkey-overlay {
+    skip-at-startup
+}
+
 spawn-sh-at-startup "eww --force-wayland open bar"
 spawn-sh-at-startup "nwg-drawer -r -wm niri msg action spawn --"
 spawn-sh-at-startup "dunst"
