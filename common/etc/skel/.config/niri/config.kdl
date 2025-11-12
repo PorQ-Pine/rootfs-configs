@@ -10,6 +10,9 @@ prefer-no-csd
 
 environment {
     QT_QPA_PLATFORM "wayland"
+    QT_QPA_PLATFORMTHEME "gtk3"
+    QT_STYLE_OVERRIDE "gtk2"
+    QT_ICON_THEME "Papirus"
     DISPLAY null
 }
 
