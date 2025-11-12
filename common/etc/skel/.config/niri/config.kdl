@@ -6,7 +6,7 @@ output "DPI-1" {
     // transform "90"
 }
 
-spawn-sh-at-startup "eww-wayland open bar"
+spawn-sh-at-startup "eww --force-wayland open bar"
 spawn-sh-at-startup "nwg-drawer -r -wm niri msg action spawn --"
 spawn-sh-at-startup "dunst"
 spawn-sh-at-startup "nm-applet --indicator"
