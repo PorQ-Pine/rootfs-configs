@@ -91,10 +91,6 @@ window-rule {
     default-window-height { proportion 1.0; }
 }
 
-hotkey-overlay {
- 
-}
-
 animations {
     off
 }
