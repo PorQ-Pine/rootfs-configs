@@ -1,5 +1,2 @@
 [org/gnome/desktop/interface]
 icon-theme='Papirus'
-
-[org/gnome/desktop/a11y/applications]
-screen-keyboard-enabled=true
