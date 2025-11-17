@@ -20,11 +20,12 @@ hotkey-overlay {
     skip-at-startup
 }
 
-spawn-sh-at-startup "eww --force-wayland open bar"
-spawn-sh-at-startup "nwg-drawer -r -wm niri msg action spawn --"
 spawn-sh-at-startup "dunst"
-spawn-sh-at-startup "nm-applet --indicator"
+spawn-sh-at-startup "eww-data-provider"
+spawn-sh-at-startup "nwg-drawer -r -wm niri msg action spawn --"
 spawn-sh-at-startup "swaybg -i /usr/share/backgrounds/quill_wallpaper1.png"
+spawn-sh-at-startup "eww --force-wayland open bar"
+spawn-sh-at-startup "nm-applet --indicator"
 spawn-sh-at-startup "squeekboard-restyled"
 
 input {
