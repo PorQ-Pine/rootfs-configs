@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="cpu", KERNEL=="cpu[0-9]*", RUN+="/bin/chmod 0777 /sys/devices/system/cpu/%k/cpufreq/scaling_governor"
