@@ -1,0 +1,19 @@
+window {
+    background-color: rgba (255, 255, 255, 1.0);
+    color: #000000
+}
+
+entry {
+    background-color: rgba (0, 0, 0, 0.0);
+    color: #000000;
+}
+
+button, image {
+    background: none;
+    border: none;
+    color: #000000;
+}
+
+button:hover {
+    background-color: rgba (0, 0, 0, 1.0)
+}
