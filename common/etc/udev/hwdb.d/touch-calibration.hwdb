@@ -1,2 +1,0 @@
-evdev:name:cyttsp5:*
- LIBINPUT_CALIBRATION_MATRIX=-1 0 1 0 -1 1

@@ -2,7 +2,7 @@
 debug { render-drm-device "/dev/dri/card1"; }
 
 output "DPI-1" {
-    // No rotation support yes
+    // No rotation support yet
     // transform "90"
 }
 
@@ -31,7 +31,8 @@ spawn-sh-at-startup "squeekboard-restyled"
 input {
     // Pinenote touch
     touch {
-        map-to-output "DPI-1"
+        // map-to-output "DPI-1"
+        calibration-matrix -1.0 0.0 1.0 0.0 -1.0 1.0
     }
 
     keyboard {

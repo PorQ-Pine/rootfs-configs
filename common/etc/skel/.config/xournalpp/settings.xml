@@ -47,7 +47,7 @@
   <!--The eraser cursor visibility used with a stylus, allowed values are "never", "always", "hover", "touch"-->
   <property name="eraserVisibility" value="never"/>
   <!--The icon theme, allowed values are "iconsColor", "iconsLucide"-->
-  <property name="iconTheme" value="iconsColor"/>
+  <property name="iconTheme" value="iconsLucide"/>
   <!--Dark/light mode, allowed values are "useSystem", "forceLight", "forceDark"-->
   <property name="themeVariant" value="useSystem"/>
   <property name="highlightPosition" value="false"/>
