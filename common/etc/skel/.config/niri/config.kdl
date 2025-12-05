@@ -29,6 +29,8 @@ spawn-sh-at-startup "nm-applet --indicator"
 spawn-sh-at-startup "squeekboard-restyled"
 
 input {
+    disable-power-key-handling
+    
     // Pinenote touch
     touch {
         // map-to-output "DPI-1"
