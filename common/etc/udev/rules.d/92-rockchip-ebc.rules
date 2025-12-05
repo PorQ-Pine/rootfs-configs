@@ -1,0 +1,1 @@
+ACTION=="add", KERNEL=="rockchip_ebc_blit_neon", RUN+="/bin/chmod 777 /sys/module/rockchip_ebc_blit_neon/parameters/y4_threshold_y1"
