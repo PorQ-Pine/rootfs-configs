@@ -101,6 +101,14 @@ layout {
 window-rule {
     default-column-width { proportion 1.0; }
     default-window-height { proportion 1.0; }
+    tiled-state true
+}
+
+window-rule {
+    match title="Save File"
+    open-floating false
+    open-maximized true
+    open-maximized-to-edges false
 }
 
 animations {
