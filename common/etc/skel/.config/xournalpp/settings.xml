@@ -16,7 +16,7 @@
   <property name="displayDpi" value="132"/>
   <property name="mainWndWidth" value="927"/>
   <property name="mainWndHeight" value="666"/>
-  <property name="maximized" value="false"/>
+  <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
   <property name="sidebarWidth" value="50"/>
@@ -116,11 +116,11 @@
   <property name="preferredLocale" value=""/>
   <property name="stabilizerAveragingMethod" value="1"/>
   <property name="stabilizerPreprocessor" value="2"/>
-  <property name="stabilizerBuffersize" value="25"/>
+  <property name="stabilizerBuffersize" value="30"/>
   <property name="stabilizerSigma" value="0.5"/>
   <property name="stabilizerDeadzoneRadius" value="1.3"/>
-  <property name="stabilizerDrag" value="0.4"/>
-  <property name="stabilizerMass" value="2.5"/>
+  <property name="stabilizerDrag" value="1"/>
+  <property name="stabilizerMass" value="1.5"/>
   <property name="stabilizerCuspDetection" value="true"/>
   <property name="stabilizerFinalizeStroke" value="true"/>
   <property name="latexSettings.autoCheckDependencies" value="false"/>
@@ -212,7 +212,15 @@
       <attribute name="deviceClass" type="int" value="3"/>
       <attribute name="deviceSource" type="int" value="2"/>
     </data>
+    <data name="xwayland-pointer:38">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
+    </data>
     <data name="xwayland-pointer:8">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
+    </data>
+    <data name="xwayland-relative-pointer:38">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
@@ -220,9 +228,17 @@
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
+    <data name="xwayland-tablet stylus:38">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
     <data name="xwayland-tablet stylus:8">
       <attribute name="deviceClass" type="int" value="2"/>
       <attribute name="deviceSource" type="int" value="1"/>
+    </data>
+    <data name="xwayland-touch:38">
+      <attribute name="deviceClass" type="int" value="4"/>
+      <attribute name="deviceSource" type="int" value="5"/>
     </data>
     <data name="xwayland-touch:8">
       <attribute name="deviceClass" type="int" value="4"/>
@@ -272,7 +288,7 @@
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
-      <attribute name="size" type="string" value="MEDIUM"/>
+      <attribute name="size" type="string" value="THIN"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
