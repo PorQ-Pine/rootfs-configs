@@ -21,7 +21,7 @@ hotkey-overlay {
 }
 
 spawn-sh-at-startup "dunst"
-spawn-sh-at-startup "eww-data-provider"
+spawn-sh-at-startup "quill-data-provider"
 spawn-sh-at-startup "nwg-drawer.sh"
 spawn-sh-at-startup "swaybg -i /usr/share/backgrounds/quill_wallpaper1.png"
 spawn-sh-at-startup "eww --force-wayland open bar"
