@@ -36,26 +36,6 @@ input {
         // map-to-output "DPI-1"
         calibration-matrix -1.0 0.0 1.0 0.0 -1.0 1.0
     }
-
-    keyboard {
-        xkb {
-            
-        }
-        numlock
-    }
-
-    touchpad {
-        tap
-        natural-scroll
-    }
-
-    mouse {
- 
-    }
-
-    trackpoint {
- 
-    }
 }
 
 cursor {
@@ -65,7 +45,7 @@ cursor {
 }
 
 layout {
-    gaps 0
+    gaps 6
     center-focused-column "on-overflow"
 
     preset-column-widths {
@@ -91,9 +71,12 @@ layout {
     }
     background-color "#FFFFFF"
 
+    // https://github.com/YaLTeR/niri/issues/2400#issuecomment-3831097820
     struts {
-        left 3
-        right 3
+        left -4
+        right -4
+        bottom -5
+        top -6
     }
 }
 
@@ -113,6 +96,7 @@ window-rule {
 animations {
     off
 }
+
 
 binds {
     Mod+Slash { show-hotkey-overlay; }
