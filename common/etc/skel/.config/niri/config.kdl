@@ -22,7 +22,7 @@ hotkey-overlay {
 
 spawn-sh-at-startup "dunst"
 spawn-sh-at-startup "quill-data-provider"
-spawn-sh-at-startup "nwg-drawer.sh"
+spawn-sh-at-startup "cosmic-wanderer"
 spawn-sh-at-startup "swaybg -i /usr/share/backgrounds/quill_wallpaper1.png"
 spawn-sh-at-startup "eww --force-wayland open bar"
 spawn-sh-at-startup "nm-applet --indicator"
@@ -102,6 +102,24 @@ window-rule {
 }
 
 window-rule {
+    match title="Cosmic Wanderer"
+    match app-id="Cosmic Wanderer"
+    open-focused true
+    clip-to-geometry false
+    open-floating true
+
+    focus-ring {
+        off
+    }
+    border {
+        off
+    }
+    shadow {
+        off
+    }
+}
+
+window-rule {
     match title="Save File"
     open-floating false
     open-maximized true
@@ -117,8 +135,6 @@ binds {
     Mod+Slash { show-hotkey-overlay; }
 
     Mod+T { spawn "tilix"; }
-    Mod+Z { spawn "nwg-drawer"; }
-
     Alt+f4 { close-window; }
 
     Mod+A { focus-column-left; }
