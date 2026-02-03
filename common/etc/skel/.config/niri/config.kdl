@@ -53,6 +53,9 @@ layout {
         proportion 0.5
         proportion 0.66667
     }
+    preset-window-heights {
+        proportion 0.5
+    }
 
     default-column-width { proportion 1.0; }
 
@@ -77,6 +80,18 @@ layout {
         right -4
         bottom -5
         top -6
+    }
+}
+
+overview {
+    zoom 0.75
+    backdrop-color "#FFFFFF"
+    workspace-shadow {
+        on
+        softness 0
+        color "#000000"
+        spread 2
+        offset // Weird but works
     }
 }
 
