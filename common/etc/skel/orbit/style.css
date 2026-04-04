@@ -1,0 +1,286 @@
+/* ORBIT - WHITE, BLACK, AND LIGHT GRAY THEME WITH BORDERS */
+
+/* GLOBAL RESET FIX */
+* {
+    all: unset;
+    transition: none !important;
+    transition-duration: 0s !important;
+    animation: none !important;
+    animation-duration: 0s !important;
+    box-shadow: none !important;
+}
+
+/* GENERIC TEXT */
+label {
+    color: #000000;
+    font-size: 12px;
+}
+
+/* BUTTON BASE */
+button {
+    color: #000000;
+    border-radius: 2rem;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #d3d3d3;
+}
+
+/* TOGGLE / SWITCH */
+switch {
+    background-color: #ffffff;
+    border-radius: 10rem;
+    min-width: 36px;
+    min-height: 18px;
+    padding: 2px;
+    border: 1px solid #000000;
+}
+
+switch slider {
+    background-color: #000000;
+    border-radius: 100%;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+switch:checked {
+    background-color: #d3d3d3;
+}
+
+/* ENTRY FIX */
+entry, password-entry {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    padding: 8px 12px;
+    color: #000000;
+    caret-color: #000000;
+}
+
+entry selection,
+password-entry selection {
+    background-color: #d3d3d3;
+}
+
+/* SCROLLBARS */
+scrollbar {
+    background: none;
+}
+
+scrollbar slider {
+    background-color: #000000;
+    border-radius: 10rem;
+    min-width: 6px;
+    min-height: 6px;
+}
+
+/* LIST / ROW FIXES */
+list, row {
+    background: none;
+}
+
+/* IMAGE / ICON */
+image {
+    color: #000000;
+}
+
+/* FOCUS */
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #000000;
+}
+
+/* SEPARATOR */
+separator {
+    background-color: #000000;
+    min-height: 1px;
+}
+
+/* LINK / SELECTABLE TEXT */
+.link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* BUTTON STATES */
+
+button:checked {
+    background-color: #d3d3d3;
+}
+
+button.active,
+button.selected {
+    background-color: #d3d3d3;
+}
+
+button label,
+button * {
+    color: inherit;
+}
+
+/* BASE */
+.orbit-panel {
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    color: #000000;
+    padding: 8px;
+    margin: 15px;
+    margin-top: 0px;
+}
+
+window,
+.background {
+    border: none;
+}
+
+/* HEADER */
+.orbit-header {
+    background: none;
+    padding: 16px 16px 8px 16px;
+}
+
+/* TABS */
+.orbit-tab-bar {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10rem;
+}
+
+.orbit-tab {
+    margin: 0.3rem;
+    color: #000000;
+    border-radius: 10rem;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.orbit-tab:hover {
+    background-color: #e0e0e0;
+}
+
+.orbit-tab.active {
+    background-color: #d3d3d3;
+}
+
+/* OVERLAYS */
+.orbit-details-overlay,
+.orbit-password-overlay,
+.orbit-error-overlay {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    padding: 24px;
+    margin: 20px;
+    color: #000000;
+}
+
+/* CARDS */
+.orbit-network-row,
+.orbit-device-row,
+.orbit-saved-network-row {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    padding: 12px 14px;
+    margin: 6px 8px;
+}
+
+.orbit-network-row:hover,
+.orbit-device-row:hover,
+.orbit-saved-network-row:hover {
+    background-color: #e0e0e0;
+}
+
+.orbit-network-row.connected,
+.orbit-device-row.connected,
+.orbit-saved-network-row.active {
+    background-color: #d3d3d3;
+}
+
+/* BUTTONS */
+.orbit-button {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 2rem;
+    padding: 8px 18px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.orbit-button.primary {
+    background-color: #d3d3d3;
+}
+
+.orbit-button.destructive {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+/* TEXT */
+.orbit-ssid {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.orbit-detail-label {
+    color: #000000;
+    font-size: 10px;
+}
+
+.orbit-icon-accent {
+    color: #000000;
+}
+
+/* SIGNAL */
+.orbit-signal-bar-active {
+    background-color: #000000;
+}
+
+.orbit-signal-bar-active-accent {
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.orbit-signal-bar-inactive {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+/* ICON CONTAINER */
+.orbit-icon-container {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+/* SEARCH */
+.orbit-search-container {
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    padding: 4px;
+}
+
+.orbit-search-entry {
+    background: none;
+    border: none;
+    color: #000000;
+}
+
+/* SAVED LIST */
+.orbit-saved-list-container {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+}

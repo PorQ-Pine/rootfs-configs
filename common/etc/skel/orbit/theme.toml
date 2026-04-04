@@ -1,0 +1,5 @@
+accent_primary = "#aaaaaa"
+accent_secondary = "#000000"
+background = "#ffffff"
+foreground = "#000000"
+opacity = 1.0
