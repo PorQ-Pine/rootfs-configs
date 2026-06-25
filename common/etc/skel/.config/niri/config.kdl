@@ -22,7 +22,7 @@ hotkey-overlay {
 spawn-sh-at-startup "dunst"
 spawn-sh-at-startup "quill-data-provider"
 spawn-sh-at-startup "cosmic-wanderer"
-spawn-sh-at-startup "swaybg -i /usr/share/backgrounds/quill_wallpaper1.png"
+spawn-sh-at-startup "swaybg -i /usr/share/backgrounds/quill_wallpaper1.png -m fill"
 spawn-sh-at-startup "eww --force-wayland open bar"
 spawn-sh-at-startup "orbit daemon"
 spawn-sh-at-startup "squeekboard-restyled"
