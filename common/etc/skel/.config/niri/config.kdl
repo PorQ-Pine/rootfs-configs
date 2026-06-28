@@ -25,7 +25,7 @@ spawn-sh-at-startup "cosmic-wanderer"
 spawn-sh-at-startup "swaybg -i /usr/share/backgrounds/quill_wallpaper1.png -m fill"
 spawn-sh-at-startup "eww --force-wayland open bar"
 spawn-sh-at-startup "orbit daemon"
-spawn-sh-at-startup "squeekboard-restyled"
+spawn-sh-at-startup "squeekboard"
 
 input {
     disable-power-key-handling
